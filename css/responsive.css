@@ -1,0 +1,43 @@
+@ media (max-width: 1023px) and (min-width: 740px) {
+
+}
+
+@media (max-width: 739px) {
+    header {
+        margin: 0;
+        padding: calc(var(--spacing-unit) * 5) 0;
+    }
+
+    header p {
+        margin-top: var(--spacing-unit);
+    }
+
+    nav {
+        display: none;
+    }
+
+    .content {
+        padding: calc(var(--spacing-unit) * 2) calc(var(--spacing-unit) * 2);
+    }
+
+    section {
+        padding: calc(var(--spacing-unit) * 1.5) calc(var(--spacing-unit) * 3);
+    }
+
+    .about {
+        display: block;
+    }
+
+    .about p {
+        padding: calc(var(--spacing-unit) * 2) 0;
+        text-align: justify;
+    }
+
+    .skills {
+        display: block;
+    }
+
+    .skills .skill {
+        margin: calc(var(--spacing-unit) * 4) 0;
+    }
+}
